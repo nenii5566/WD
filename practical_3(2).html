@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form</title>
+</head>
+<body style="background-color: rgb(213, 190, 213); display: flex; justify-content: center; align-items: center; height: 100vb;">
+
+    <div style="background-color: rgb(243, 243, 219); padding: 50px; text-align: center;">
+        <h2 style="color: darkblue;"><u>Advanced Form</u></h2>
+        <form action="/submit_form" method="post" style="display: inline-block; text-align: left;">
+
+            <!-- Combo -->
+            <p><b>Department:</b></p>
+            <select name="department" id="department" style="width: 100%;">
+                <option value="cp">CP</option>
+                <option value="it">IT</option>
+                <option value="csd">CSD</option>
+                <option value="aids">AIDS</option>
+                <option value="fpt">FPT</option>
+                <option value="dt">DT</option>
+            </select><br>
+
+            <!-- Date -->
+            <p><b>Select Date:</b></p>
+            <input type="date" id="date" name="date" style="width: 100%;"><br>
+
+            <!-- File upload -->
+            <p><b>Upload resume:</b></p>
+            <input type="file" id="resume" name="resume" style="width: 100%;"><br><br>
+
+            <!-- Buttons -->
+            <input type="submit" value="Submit" style="width: 48%;">
+            <input type="reset" value="Reset" style="width: 48%;">
+
+        </form>
+    </div>
+
+</body>
+</html>
